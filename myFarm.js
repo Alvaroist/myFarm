@@ -7,11 +7,11 @@ var pictures = [];
     pictures["chicken"]= "images/pollo.png";
 
 var background ={
+  image: new Image(),
   url:"images/farm.png",
   load: false
 };
 
-background.image=new Image();
 background.image.src=background.url;
 
 var arrowKey={ 
